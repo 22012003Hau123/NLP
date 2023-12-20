@@ -6,6 +6,9 @@ import nltk
 
 nltk.download('punkt')  # Cần thiết cho việc tách câu và từ
 
+def sum(a, b):
+    return a+b
+
 def process_text(text):
     sentences = sent_tokenize(text)
     return sentences
